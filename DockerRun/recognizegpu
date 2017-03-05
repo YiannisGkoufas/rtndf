@@ -1,0 +1,4 @@
+nvidia-docker run --rm  --name recognizegpu --net=host \
+    -u $UID \
+    -v $HOME/.config/Manifold:/.config/Manifold \
+    rtndocker/recognizegpu $@

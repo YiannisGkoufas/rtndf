@@ -1,0 +1,4 @@
+docker run --rm --name facerec --net=host \
+    -v $HOME/.config/Manifold:/.config/Manifold \
+    rtndocker/facerec $@
+

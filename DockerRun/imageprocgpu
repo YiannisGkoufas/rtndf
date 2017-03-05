@@ -1,0 +1,4 @@
+nvidia-docker run --rm --name imageprocgppu --net=host \
+    -u $UID \
+    -v $HOME/.config/Manifold:/.config/Manifold \
+    rtndocker/imageprocgpu $@

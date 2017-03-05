@@ -1,0 +1,4 @@
+docker run --rm --name modet --net=host \
+    -u $UID \
+    -v $HOME/.config/Manifold:/.config/Manifold \
+    rtndocker/modet $@

@@ -1,0 +1,3 @@
+cd ../Python/recognize
+docker build -t rtndocker/recognize .
+

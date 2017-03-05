@@ -1,0 +1,3 @@
+cd ../rtndfcore
+docker build -f Dockerfiletfgpucv2 -t rtndocker/rtndfcoretfgpucv2 .
+

@@ -1,0 +1,3 @@
+cd ../Python/avview
+docker build -t rtndocker/avview .
+

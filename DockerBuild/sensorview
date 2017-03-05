@@ -1,0 +1,3 @@
+cd ../Python/sensorview
+docker build -t rtndocker/sensorview .
+

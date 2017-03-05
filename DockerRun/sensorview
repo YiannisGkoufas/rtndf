@@ -1,0 +1,6 @@
+docker run --rm --net=host --name sensorview \
+    -u $UID \
+    -v /tmp/.X11-unix:/tmp/.X11-unix \
+    -e="DISPLAY" \
+    -v $HOME/.config/Manifold:/.config/Manifold\
+    rtndocker/sensorview $@

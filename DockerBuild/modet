@@ -1,0 +1,3 @@
+cd ../Python/modet
+docker build -t rtndocker/modet .
+

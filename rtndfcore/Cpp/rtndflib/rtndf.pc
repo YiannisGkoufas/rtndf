@@ -1,0 +1,10 @@
+# Package Information for pkg-config
+
+prefix=/usr
+includedir=${prefix}/include/rtndf
+
+Name: rtndf
+Description: Pipeline Processing Elements (PPEs) and tools for creating streaming data flow pipeline
+Version: 0.0.1
+Libs: -lrtndflib
+Cflags: -I${includedir}

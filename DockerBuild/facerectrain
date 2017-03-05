@@ -1,0 +1,2 @@
+cd ../Python/facerec
+docker build -f Dockerfiletrain -t rtndocker/facerectrain .

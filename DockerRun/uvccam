@@ -1,0 +1,4 @@
+docker run --name uvccam --rm --net=host \
+    --device=/dev/video0:/dev/video0 \
+    -v $HOME/.config/Manifold:/.config/Manifold\
+    rtndocker/uvccam $@

@@ -1,0 +1,4 @@
+docker run --rm --name facerectrain --net=host \
+    -p 9000:9000 -p 8000:8000 -t \
+    -v $HOME/.config/Manifold:/.config/Manifold \
+    -i rtndocker/facerectrain

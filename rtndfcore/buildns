@@ -1,0 +1,11 @@
+cd Cpp/rtndflib
+qmake
+make -j4
+make install
+
+cd ../../Python
+python setup.py build
+python setup.py install
+python sensorlib.py build
+python sensorlib.py install
+ 

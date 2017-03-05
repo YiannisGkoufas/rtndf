@@ -1,0 +1,3 @@
+cd ../Cpp/speechdecode
+docker build -t rtndocker/speechdecode .
+

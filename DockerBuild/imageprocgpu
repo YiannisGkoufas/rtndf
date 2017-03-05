@@ -1,0 +1,3 @@
+cd ../Python/imageproc
+docker build -f Dockerfilegpu -t rtndocker/imageprocgpu .
+

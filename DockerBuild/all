@@ -1,0 +1,17 @@
+./rtndfcore
+./rtndfcoretf
+./rtndfcoretfgpu
+./rtndfcoretfcv2
+./rtndfcoretfgpucv2
+./imageproc
+./imageprocgpu
+./avview
+./recognize
+./recognizegpu
+./uvccam
+./imuview
+./modet
+./facerec
+./facerectrain
+./sensorview
+./speechdecode

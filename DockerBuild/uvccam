@@ -1,0 +1,3 @@
+cd ../Python/uvccam
+docker build -t rtndocker/uvccam .
+
